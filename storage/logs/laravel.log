@@ -1,0 +1,102 @@
+[2022-12-23 07:24:33] production.ERROR: App\Commands\RedirectCommand::__construct(): Argument #2 ($returnPath) must be of type string, null given, called in C:\xampp\htdocs\laravel\passport\app\Commands\RedirectCommand.php on line 38 {"exception":"[object] (TypeError(code: 0): App\\Commands\\RedirectCommand::__construct(): Argument #2 ($returnPath) must be of type string, null given, called in C:\\xampp\\htdocs\\laravel\\passport\\app\\Commands\\RedirectCommand.php on line 38 at C:\\xampp\\htdocs\\laravel\\passport\\app\\Commands\\RedirectCommand.php:12)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\laravel\\passport\\app\\Commands\\RedirectCommand.php(38): App\\Commands\\RedirectCommand->__construct()
+#1 C:\\xampp\\htdocs\\laravel\\passport\\app\\Http\\Middleware\\RedirectCollectorMiddleware.php(23): App\\Commands\\RedirectCommand::fromRequest()
+#2 C:\\xampp\\htdocs\\laravel\\passport\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): App\\Http\\Middleware\\RedirectCollectorMiddleware->handle()
+#3 C:\\xampp\\htdocs\\laravel\\passport\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#4 C:\\xampp\\htdocs\\laravel\\passport\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#5 C:\\xampp\\htdocs\\laravel\\passport\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle()
+#6 C:\\xampp\\htdocs\\laravel\\passport\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#7 C:\\xampp\\htdocs\\laravel\\passport\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#8 C:\\xampp\\htdocs\\laravel\\passport\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle()
+#9 C:\\xampp\\htdocs\\laravel\\passport\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#10 C:\\xampp\\htdocs\\laravel\\passport\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle()
+#11 C:\\xampp\\htdocs\\laravel\\passport\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#12 C:\\xampp\\htdocs\\laravel\\passport\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle()
+#13 C:\\xampp\\htdocs\\laravel\\passport\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#14 C:\\xampp\\htdocs\\laravel\\passport\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle()
+#15 C:\\xampp\\htdocs\\laravel\\passport\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#16 C:\\xampp\\htdocs\\laravel\\passport\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle()
+#17 C:\\xampp\\htdocs\\laravel\\passport\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#18 C:\\xampp\\htdocs\\laravel\\passport\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(165): Illuminate\\Pipeline\\Pipeline->then()
+#19 C:\\xampp\\htdocs\\laravel\\passport\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(134): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#20 C:\\xampp\\htdocs\\laravel\\passport\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
+#21 C:\\xampp\\htdocs\\laravel\\passport\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
+#22 {main}
+"} 
+[2022-12-23 07:24:36] production.ERROR: App\Commands\RedirectCommand::__construct(): Argument #2 ($returnPath) must be of type string, null given, called in C:\xampp\htdocs\laravel\passport\app\Commands\RedirectCommand.php on line 38 {"exception":"[object] (TypeError(code: 0): App\\Commands\\RedirectCommand::__construct(): Argument #2 ($returnPath) must be of type string, null given, called in C:\\xampp\\htdocs\\laravel\\passport\\app\\Commands\\RedirectCommand.php on line 38 at C:\\xampp\\htdocs\\laravel\\passport\\app\\Commands\\RedirectCommand.php:12)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\laravel\\passport\\app\\Commands\\RedirectCommand.php(38): App\\Commands\\RedirectCommand->__construct()
+#1 C:\\xampp\\htdocs\\laravel\\passport\\app\\Http\\Middleware\\RedirectCollectorMiddleware.php(23): App\\Commands\\RedirectCommand::fromRequest()
+#2 C:\\xampp\\htdocs\\laravel\\passport\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): App\\Http\\Middleware\\RedirectCollectorMiddleware->handle()
+#3 C:\\xampp\\htdocs\\laravel\\passport\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#4 C:\\xampp\\htdocs\\laravel\\passport\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#5 C:\\xampp\\htdocs\\laravel\\passport\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle()
+#6 C:\\xampp\\htdocs\\laravel\\passport\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#7 C:\\xampp\\htdocs\\laravel\\passport\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#8 C:\\xampp\\htdocs\\laravel\\passport\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle()
+#9 C:\\xampp\\htdocs\\laravel\\passport\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#10 C:\\xampp\\htdocs\\laravel\\passport\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle()
+#11 C:\\xampp\\htdocs\\laravel\\passport\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#12 C:\\xampp\\htdocs\\laravel\\passport\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle()
+#13 C:\\xampp\\htdocs\\laravel\\passport\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#14 C:\\xampp\\htdocs\\laravel\\passport\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle()
+#15 C:\\xampp\\htdocs\\laravel\\passport\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#16 C:\\xampp\\htdocs\\laravel\\passport\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle()
+#17 C:\\xampp\\htdocs\\laravel\\passport\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#18 C:\\xampp\\htdocs\\laravel\\passport\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(165): Illuminate\\Pipeline\\Pipeline->then()
+#19 C:\\xampp\\htdocs\\laravel\\passport\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(134): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#20 C:\\xampp\\htdocs\\laravel\\passport\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
+#21 C:\\xampp\\htdocs\\laravel\\passport\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
+#22 {main}
+"} 
+[2022-12-23 07:30:10] local.ERROR: Command "key:generate\" is not defined.
+
+Did you mean one of these?
+    event:generate
+    key:generate {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"key:generate\\\" is not defined.
+
+Did you mean one of these?
+    event:generate
+    key:generate at C:\\xampp\\htdocs\\laravel\\passport\\vendor\\symfony\\console\\Application.php:694)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\laravel\\passport\\vendor\\symfony\\console\\Application.php(259): Symfony\\Component\\Console\\Application->find()
+#1 C:\\xampp\\htdocs\\laravel\\passport\\vendor\\symfony\\console\\Application.php(171): Symfony\\Component\\Console\\Application->doRun()
+#2 C:\\xampp\\htdocs\\laravel\\passport\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(102): Symfony\\Component\\Console\\Application->run()
+#3 C:\\xampp\\htdocs\\laravel\\passport\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(155): Illuminate\\Console\\Application->run()
+#4 C:\\xampp\\htdocs\\laravel\\passport\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#5 {main}
+"} 
+[2022-12-23 07:30:28] local.ERROR: App\Commands\RedirectCommand::__construct(): Argument #2 ($returnPath) must be of type string, null given, called in C:\xampp\htdocs\laravel\passport\app\Commands\RedirectCommand.php on line 38 {"exception":"[object] (TypeError(code: 0): App\\Commands\\RedirectCommand::__construct(): Argument #2 ($returnPath) must be of type string, null given, called in C:\\xampp\\htdocs\\laravel\\passport\\app\\Commands\\RedirectCommand.php on line 38 at C:\\xampp\\htdocs\\laravel\\passport\\app\\Commands\\RedirectCommand.php:12)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\laravel\\passport\\app\\Commands\\RedirectCommand.php(38): App\\Commands\\RedirectCommand->__construct()
+#1 C:\\xampp\\htdocs\\laravel\\passport\\app\\Http\\Middleware\\RedirectCollectorMiddleware.php(23): App\\Commands\\RedirectCommand::fromRequest()
+#2 C:\\xampp\\htdocs\\laravel\\passport\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): App\\Http\\Middleware\\RedirectCollectorMiddleware->handle()
+#3 C:\\xampp\\htdocs\\laravel\\passport\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#4 C:\\xampp\\htdocs\\laravel\\passport\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#5 C:\\xampp\\htdocs\\laravel\\passport\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle()
+#6 C:\\xampp\\htdocs\\laravel\\passport\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#7 C:\\xampp\\htdocs\\laravel\\passport\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#8 C:\\xampp\\htdocs\\laravel\\passport\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle()
+#9 C:\\xampp\\htdocs\\laravel\\passport\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#10 C:\\xampp\\htdocs\\laravel\\passport\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle()
+#11 C:\\xampp\\htdocs\\laravel\\passport\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#12 C:\\xampp\\htdocs\\laravel\\passport\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle()
+#13 C:\\xampp\\htdocs\\laravel\\passport\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#14 C:\\xampp\\htdocs\\laravel\\passport\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle()
+#15 C:\\xampp\\htdocs\\laravel\\passport\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#16 C:\\xampp\\htdocs\\laravel\\passport\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle()
+#17 C:\\xampp\\htdocs\\laravel\\passport\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#18 C:\\xampp\\htdocs\\laravel\\passport\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(165): Illuminate\\Pipeline\\Pipeline->then()
+#19 C:\\xampp\\htdocs\\laravel\\passport\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(134): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#20 C:\\xampp\\htdocs\\laravel\\passport\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
+#21 C:\\xampp\\htdocs\\laravel\\passport\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
+#22 {main}
+"} 
+[2022-12-23 12:15:21] local.INFO: [IP: 127.0.0.1] Пользователь, запросил форму авторизации.  
+[2022-12-23 12:15:40] local.INFO: [IP: 127.0.0.1] Пользователь, запросил форму авторизации.  
+[2022-12-23 12:15:59] local.INFO: [IP: 127.0.0.1] Пользователь, запросил форму авторизации.  
+[2022-12-23 12:16:08] local.INFO: [IP: 127.0.0.1] Пользователь, запросил форму авторизации.  
+[2022-12-23 12:16:15] local.INFO: [IP: 127.0.0.1] Пользователь, запросил форму авторизации.  
+[2022-12-23 12:23:14] local.INFO: [IP: 127.0.0.1] Пользователь, запросил форму авторизации.  
+[2022-12-23 12:23:18] local.INFO: [IP: 127.0.0.1] Пользователь, запросил форму авторизации.  
