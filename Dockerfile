@@ -1,4 +1,4 @@
-FROM yellowimages/php81-nginx:8.1.3-passport
+FROM php81-nginx:8.1.3-passport
 WORKDIR /var/www
 RUN mkdir -p /var/www/storage/logs /var/www/storage/cache /var/www/storage/framework/views
 COPY .env.dev /var/www/.env

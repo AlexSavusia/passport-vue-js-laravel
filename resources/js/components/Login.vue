@@ -2,7 +2,7 @@
     <div  class="auth" >
         <div class="inner-block login" :class="{ success: !success}">
             <div class="exit-cross">
-                <a href="https://yellowimages.com/">
+                <a href="#">
                     <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
                         <path d="M14.25 4.8075L13.1925 3.75L9 7.9425L4.8075 3.75L3.75 4.8075L7.9425 9L3.75 13.1925L4.8075 14.25L9 10.0575L13.1925 14.25L14.25 13.1925L10.0575 9L14.25 4.8075Z" fill="black"/>
                         <mask id="mask0_0_64210" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="3" y="3" width="12" height="12">
@@ -22,7 +22,7 @@
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><path fill-rule="evenodd" clip-rule="evenodd" d="M11.99 2C6.47 2 2 6.48 2 12C2 17.52 6.47 22 11.99 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 11.99 2ZM13 13V7H11V13H13ZM13 17V15H11V17H13ZM4 12C4 16.42 7.58 20 12 20C16.42 20 20 16.42 20 12C20 7.58 16.42 4 12 4C7.58 4 4 7.58 4 12Z"/><mask id="mask0_0_63631" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="2" y="2" width="20" height="20"><path fill-rule="evenodd" clip-rule="evenodd" d="M11.99 2C6.47 2 2 6.48 2 12C2 17.52 6.47 22 11.99 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 11.99 2ZM13 13V7H11V13H13ZM13 17V15H11V17H13ZM4 12C4 16.42 7.58 20 12 20C16.42 20 20 16.42 20 12C20 7.58 16.42 4 12 4C7.58 4 4 7.58 4 12Z" fill="white"/></mask><g mask="url(#mask0_0_63631)"><rect width="24" height="24" fill="#DC3545"/></g></svg>
                         <div>
                             <span>Sorry, something went wrong.</span>
-                            Please try again later or contact our <a href="https://help.yellowimages.com/hc/en-us">Support team.</a>
+                            Please try again later or contact our <a href="#">Support team.</a>
                         </div>
                     </div>
                 </transition>
@@ -31,7 +31,7 @@
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><path fill-rule="evenodd" clip-rule="evenodd" d="M11.99 2C6.47 2 2 6.48 2 12C2 17.52 6.47 22 11.99 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 11.99 2ZM13 13V7H11V13H13ZM13 17V15H11V17H13ZM4 12C4 16.42 7.58 20 12 20C16.42 20 20 16.42 20 12C20 7.58 16.42 4 12 4C7.58 4 4 7.58 4 12Z"/><mask id="mask0_0_63631" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="2" y="2" width="20" height="20"><path fill-rule="evenodd" clip-rule="evenodd" d="M11.99 2C6.47 2 2 6.48 2 12C2 17.52 6.47 22 11.99 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 11.99 2ZM13 13V7H11V13H13ZM13 17V15H11V17H13ZM4 12C4 16.42 7.58 20 12 20C16.42 20 20 16.42 20 12C20 7.58 16.42 4 12 4C7.58 4 4 7.58 4 12Z" fill="white"/></mask><g mask="url(#mask0_0_63631)"><rect width="24" height="24" fill="#DC3545"/></g></svg>
                         <div>
                             <span>Forgot your password?</span>
-                            <span style="text-decoration: underline; cursor: pointer" @click="reset()"> Reset</span> or contact our <a href="https://help.yellowimages.com/hc/en-us">Support team.</a>
+                            <span style="text-decoration: underline; cursor: pointer" @click="reset()"> Reset</span> or contact our <a href="#">Support team.</a>
                         </div>
                     </div>
                 </transition>
@@ -84,7 +84,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="policy-link">All fields are required. By creating an account you agree <a href="https://yellowimages.com/terms/">Terms & Conditions</a> and our <a href="https://yellowimages.com/privacy-policy/"> Privacy Policy.</a></div>
+                <div class="policy-link">All fields are required. By creating an account you agree <a href="#">Terms & Conditions</a> and our <a href="#"> Privacy Policy.</a></div>
             </form>
         </div>
     </div>
